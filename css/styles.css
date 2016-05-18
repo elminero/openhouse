@@ -1,0 +1,114 @@
+.icon {
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.services section {
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    margin-top: 0;
+  }
+
+  .services section  {
+    text-align: left;
+  }
+}
+
+body {
+  background-color: #8b8b8b;
+    font-size: 16px;
+}
+
+.container {
+  background-color: #b2ceda;
+  /* background-color: black;*/
+ }
+
+
+ @media (min-width: 1200px) {
+   .container{
+     max-width: 970px;
+   }
+ }
+
+ .center {
+   text-align: center;
+ }
+
+ .h2titleblue {
+   color: #0e3862;
+   font-size: 2em;
+   letter-spacing: 5px;
+ }
+
+ .h2blue {
+   color: #0e3862;
+ }
+
+
+.h1titleblue {
+    color: #0e3862;
+    /*  color: white; */
+    font-size: 3em;
+    letter-spacing: 2px;
+    line-height: 75%;
+}
+
+.capdrop {
+    font-size: 120%;
+}
+
+
+
+hr {
+  height:1px;
+  border:none;
+  color:#000;
+  background-color:#000;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+
+.program {
+    font-size: 18px;
+}
+
+
+
+.map_container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.map_container .map_canvas{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Demo styles */
+body{
+
+}
+.map_container .map_canvas{
+    background: #ccc;
+}
